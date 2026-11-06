@@ -1,0 +1,9 @@
+JP CardWorks – lokale Manrope-Schrift
+
+Die Manrope-Schrift wird jetzt lokal aus assets/fonts geladen.
+Google-Fonts-Verbindungen wurden aus allen HTML-Seiten entfernt.
+Bitte den gesamten Inhalt dieses Ordners in das Root-Verzeichnis des GitHub-Pages-Repositories hochladen und bestehende Dateien ersetzen.
+CNAME und README.txt bleiben erhalten.
+
+Enthaltene Schriftdatei: Manrope Variable Latin WOFF2.
+Lizenz: SIL Open Font License (OFL.txt).
