@@ -1,20 +1,26 @@
 <!doctype html>
 <html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>JP CardWorks – Sammelkarten</title>
+<link rel="icon" href="assets/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="apple-touch-icon" href="assets/favicon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <meta name="description" content="JP CardWorks – An- und Verkauf von Sammelkarten.">
 <style>
 :root{--bg:#090b10;--s:#151a22;--t:#f2f4f7;--m:#a8b0bd;--a:#ff6b35;--b:#2a313d}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at top,#171d28,#090b10 45%);color:var(--t);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
-.wrap{max-width:1080px;margin:auto;padding:0 22px}a{color:inherit}.nav{position:absolute;top:0;left:0;right:0;padding:22px 0}.navin{display:flex;justify-content:space-between}.brand{font-weight:800;letter-spacing:.06em}.links{display:flex;gap:22px;color:var(--m)}.links a{text-decoration:none}
-header{min-height:76vh;display:flex;align-items:center;border-bottom:1px solid var(--b)}.hero{padding-top:90px}.ey{color:#ff9b70;text-transform:uppercase;letter-spacing:.14em;font-size:.8rem;font-weight:700}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at top,#171d28,#090b10 45%);color:var(--t);font:16px/1.6 "Manrope",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+.wrap{max-width:1080px;margin:auto;padding:0 22px}a{color:inherit}.nav{position:absolute;top:0;left:0;right:0;padding:14px 0;background:linear-gradient(180deg,#f0f0ee 0%,#e4e5e3 100%);border-bottom:1px solid #c9ccca}.navin{display:flex;justify-content:space-between;align-items:center;min-height:108px}.brand{display:flex;align-items:center}.brand img{display:block;width:420px;height:auto;max-height:108px;object-fit:contain}.links{display:flex;gap:22px;color:#343a40}.links a{text-decoration:none}.links a:hover{color:#ff6b35}
+header{min-height:76vh;display:flex;align-items:center;border-bottom:1px solid var(--b)}.hero{padding-top:150px}.ey{color:#ff9b70;text-transform:uppercase;letter-spacing:.14em;font-size:.8rem;font-weight:700}
 h1{font-size:clamp(3rem,10vw,6.2rem);line-height:.95;letter-spacing:-.05em;margin:18px 0 26px}h2{font-size:clamp(2rem,5vw,3rem);line-height:1.05}.lead{max-width:680px;color:var(--m);font-size:1.15rem}
 .buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.btn{padding:13px 18px;border:1px solid var(--b);border-radius:10px;text-decoration:none;font-weight:700;background:var(--s)}.primary{background:var(--a);color:#111;border-color:var(--a)}
 section{padding:80px 0;border-bottom:1px solid var(--b)}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card,.contactbox{background:linear-gradient(145deg,#171c25,#11151d);border:1px solid var(--b);border-radius:16px;padding:24px}.card p{color:var(--m)}
 .contact{display:grid;grid-template-columns:1.2fr .8fr;gap:30px}.contactbox a{color:#ff9b70}footer{padding:35px 0 50px;color:var(--m)}footer a{color:var(--m)}
-@media(max-width:760px){.links{display:none}.grid,.contact{grid-template-columns:1fr}section{padding:62px 0}}
+@media(max-width:760px){.nav{padding:10px 0}.navin{min-height:0;justify-content:center;gap:6px;flex-wrap:wrap}.brand img{width:300px;max-height:78px}.links{display:flex;width:100%;justify-content:center;gap:18px;padding:4px 0 8px;font-size:.9rem}.grid,.contact{grid-template-columns:1fr}section{padding:62px 0}header{min-height:78vh}.hero{padding-top:150px}}
 </style></head>
 <body>
-<nav class="nav"><div class="wrap navin"><div class="brand">JP CARDWORKS</div><div class="links"><a href="#leistungen">Leistungen</a><a href="#ueber">Über mich</a><a href="blog.html">Blog</a><a href="#kontakt">Kontakt</a></div></div></nav>
+<nav class="nav"><div class="wrap navin"><a class="brand" href="index.html" aria-label="JP CardWorks Startseite"><img src="assets/Gesamtlogo_mit_Claim_hell.svg" alt="JP CardWorks – Cards. Done Right."></a><div class="links"><a href="#leistungen">Leistungen</a><a href="#ueber">Über mich</a><a href="blog.html">Blog</a><a href="#kontakt">Kontakt</a></div></div></nav>
 <header><div class="wrap hero"><div class="ey">Trading Cards · An- &amp; Verkauf</div>
 <h1>Cards.<br>Collections.<br>CardWorks.</h1>
 <p class="lead">JP CardWorks steht für den An- und Verkauf von Sammelkarten – mit Schwerpunkt auf Magic: The Gathering und Yu-Gi-Oh! Einzelkarten, Sammlungen und ausgewählte Kartenbestände.</p>
